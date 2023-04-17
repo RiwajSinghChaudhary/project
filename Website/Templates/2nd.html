@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Private Jets</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="favicon.jpg" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Flight Deck</h1>
+			<nav>
+				<ul>
+					<li><a href="1st.html">Home</a></li>
+					<li><a href="2nd.html">Jets</a></li>
+					<li><a href="3rd.html">Services</a></li>
+					<li><a href="4th.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="jets">
+		<div class="container">
+			<h1>Inventory</h1>
+			<table>
+				<tr>
+					<th>Serial Number</th>
+					<th>Manufacturer</th>
+					<th>Model</th>
+					<th>Year</th>
+					<th>Price</th>
+				</tr>
+				{% for row in rows %}
+				<tr>
+					<td>{{ row[0] }}</td>
+					<td>{{ row[1] }}</td>
+					<td>{{ row[2] }}</td>
+					<td>{{ row[3] }}</td>
+					<td>{{ row[4] }}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</section>
+</body>
+<footer>
+	<div class="container">
+		<p>&copy; 2023 Private Jet Dealership</p>
+	</div>
+</footer>
+</html>

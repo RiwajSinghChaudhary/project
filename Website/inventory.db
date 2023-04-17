@@ -1,0 +1,14 @@
+CREATE TABLE inventory (
+  id INT PRIMARY KEY,
+  make VARCHAR(50) NOT NULL,
+  model VARCHAR(50) NOT NULL,
+  year INT NOT NULL,
+  price INT NOT NULL,
+  image_url VARCHAR(255) NOT NULL
+);
+
+INSERT INTO inventory (id, make, model, year, price, image_url) VALUES
+(1, 'Bombardier', 'Challenger 350', 2018, 9950000, 'https://example.com/challenger350.jpg'),
+(2, 'Dassault', 'Falcon 7X', 2014, 29500000, 'https://example.com/falcon7x.jpg'),
+(3, 'Gulfstream', 'G650', 2019, 69900000, 'https://example.com/g650.jpg'),
+(4, 'Cessna', 'Citation X', 2006, 6900000, 'https://example.com/citationx.jpg');

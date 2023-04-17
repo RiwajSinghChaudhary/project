@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Private Jets - Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="favicon.jpg" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Flight Deck</h1>
+			<nav>
+				<ul>
+					<li><a href="1st.html">Home</a></li>
+					<li><a href="2nd.html">Jets</a></li>
+					<li><a href="3rd.html">Services</a></li>
+					<li><a href="4th.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="contact">
+		<h2>Contact Us</h2>
+		<form method="post" action="submit_form.py">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+</body>
+<footer>
+	<div class="container">
+		<p>&copy; 2023 Private Jet Dealership</p>
+	</div>
+</footer>
+</html>
