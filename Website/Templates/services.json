@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Private Jet Sales",
+      "description": "Browse our extensive collection of luxury private jets and find the perfect one for your needs.",
+      "icon": "fa-plane"
+    },
+    {
+      "id": 2,
+      "title": "Jet Charter Services",
+      "description": "Experience the ultimate luxury and convenience with our private jet charter services.",
+      "icon": "fa-calendar-alt"
+    },
+    {
+      "id": 3,
+      "title": "Jet Maintenance",
+      "description": "Ensure the safety and performance of your private jet with our comprehensive maintenance services.",
+      "icon": "fa-tools"
+    }
+  ]
+}

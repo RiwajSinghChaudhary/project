@@ -18,30 +18,21 @@
 			</nav>
 		</div>
 	</header>
-	<section class="jets">
-		<div class="container">
-			<h1>Inventory</h1>
-			<table>
-				<tr>
-					<th>Serial Number</th>
-					<th>Manufacturer</th>
-					<th>Model</th>
-					<th>Year</th>
-					<th>Price</th>
-				</tr>
-				{% for row in rows %}
-				<tr>
-					<td>{{ row[0] }}</td>
-					<td>{{ row[1] }}</td>
-					<td>{{ row[2] }}</td>
-					<td>{{ row[3] }}</td>
-					<td>{{ row[4] }}</td>
-				</tr>
-				{% endfor %}
-			</table>
-		</div>
-	</section>
+	<div id="inventory"></div>
+	<div id="contact-form">
+		<h2>Contact Seller</h2>
+		<form>
+		  <input type="text" id="jet-make" name="make" placeholder="Make" readonly>
+		  <input type="text" id="jet-model" name="model" placeholder="Model" readonly>
+		  <input type="text" id="name" name="name" placeholder="Your Name" required>
+		  <input type="email" id="email" name="email" placeholder="Your Email" required>
+		  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+		  <button type="submit">Submit</button>
+		  <button type="button" onclick="closeContactForm()">Close</button>
+		</form>
+	  </div>	  
 </body>
+<script src="app.js"></script>
 <footer>
 	<div class="container">
 		<p>&copy; 2023 Private Jet Dealership</p>

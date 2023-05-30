@@ -1,0 +1,26 @@
+[
+  {
+    "make": "Gulfstream",
+    "model": "G650",
+    "year": 2019,
+    "price": "$65,000,000"
+  },
+  {
+    "make": "Bombardier",
+    "model": "Global 7500",
+    "year": 2020,
+    "price": "$73,000,000"
+  },
+  {
+    "make": "Dassault",
+    "model": "Falcon 8X",
+    "year": 2018,
+    "price": "$58,000,000"
+  },
+  {
+    "make": "Boeing",
+    "model": "Business Jet 777X",
+    "year": 2023,
+    "price": "$400,000,000"
+  }
+]
